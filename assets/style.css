@@ -30,6 +30,7 @@ position: absolute;
 margin: 0.6rem;
 border-radius: 0.6rem;
 font-size: 1vw;
+backface-visibility: hidden;
 }
 
 .cartao__conteudo {
@@ -52,6 +53,11 @@ font-weight: 700;
 
 cartao:hover .cartao__conteudo {
 transform: rotateY(180deg);
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+backface-visibility: hidden;
 }
 
 footer {
