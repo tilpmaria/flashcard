@@ -1,5 +1,5 @@
 :root {
---text-color: #f4b9de;
+--text-color: #fdc2e8;
 --card-front-color: #bc4feb;
 --card-back-color: #db1717fd;
 }
@@ -100,7 +100,7 @@ margin-top: 0,5rem;
 @media (max-width: 560px) {
 
     body {
-        background: url('assets/bg-mobile.webp');
+        background: url('bg-mobile.webp');
     }
     .cartao {
         flex: 1 0 calc(100% - 1rem);
