@@ -1,11 +1,11 @@
 :root {
---text-color: #fdc2e8;
---card-front-color: #bc4feb;
---card-back-color: #db1717fd;
+--text-color: #e36cf3;
+--card-front-color: #a4283d;
+--card-back-color: #a81269;
 }
 
 body {
-background: url('bg-desktop.webp');
+background: url('davies-designs-studio-f5_lfi2S-d4-unsplash.jpg');
 font-family: Bai Jamjuree;
 }
 
@@ -19,7 +19,7 @@ gap: 3rem;
 
 .cartao {
 margin: 1rem 1rem;
-background-color: rgba(66, 7, 203, 0.856);
+background-color: rgba(140, 57, 55, 0.856);
 height: 20rem;
 flex-grow: 1;
 flex-basis: calc(33% -6rem);
@@ -100,7 +100,7 @@ margin-top: 0,5rem;
 @media (max-width: 560px) {
 
     body {
-        background: url('bg-mobile.webp');
+        background: url('makesumo-doKatAORoIs-unsplash.jpg');
     }
     .cartao {
         flex: 1 0 calc(100% - 1rem);
