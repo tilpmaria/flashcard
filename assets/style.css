@@ -82,7 +82,7 @@ transform: rotateY(180deg);
 }
 
 footer {
-background-color: black;
+background-color: rgb(191, 179, 179);
 color: white;
 bottom:0;
 position:fixed;
